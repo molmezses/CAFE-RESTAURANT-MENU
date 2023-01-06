@@ -1,0 +1,115 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100em;
+    background-color: #FEFCF3;
+    font-family: 'Open Sans', sans-serif;}
+
+
+.container{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100em;
+    padding: 10px;
+}
+.texta{
+    padding: 10px;
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    color:black;
+    background-color: #8fbc8f;
+    position: sticky;
+    top: 0px;
+    box-shadow: 2px 2px 14px #8fbc8f;
+    
+}
+
+
+.box{
+    width: 100%;
+    height: 100px;
+    margin:0px auto;
+    margin-bottom:20px;
+    float: left;
+    border-bottom: .5px solid #8fbc8f;
+    padding: 5px;
+    
+
+}
+
+
+
+@media (min-width: 1281px) {
+    .box{
+
+        width: 40%;
+        height: 100px;
+        margin:0px auto;
+        margin-bottom:20px;
+        margin-left: 35%;
+        float: left;
+ 
+        padding: 5px;
+        
+    
+    }
+
+   
+    
+  }
+
+.imgbox{
+    display:block;
+    width:100px;
+    height: 100px;
+    float: left;
+    object-fit: contain;
+    background-size: cover;
+
+}
+
+.headertext{
+    display:block;
+    color:black;
+    font-weight: bold;
+    font-size: 100%;
+    float: left;
+    margin: 8px 15px;
+
+}
+
+.contenttext{
+    display:block;
+    color: #3F4E4F;
+    font-size: 65%;
+    float: left;
+    margin: 8px 15px;
+    width: 40%;
+    font-family: 'Calligraffitti', cursive;
+    
+    
+}
+
+.img{
+    width:100px;
+    height: 100px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px #180A0A;
+}
+
+.price{
+    font-size: 100%;
+    color:#647E68;
+    font-weight: bold;
+
+}
+
+
+
+
+

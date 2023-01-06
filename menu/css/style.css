@@ -1,0 +1,68 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: auto;
+    background-color: #FEFCF3;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.menubox {
+    background-color: #101612;
+    object-fit: cover;
+    width: 90%;
+    height: 5%;
+    margin: 10px 20px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 6px 6px 100px black;
+
+}
+
+
+.menuBoximg {
+    width: 100%;
+    height:96px;
+    border-radius: 10px;
+    opacity: 0.5;
+    object-fit: cover;
+}
+
+.a {
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    font-weight:500;
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+
+@media (min-width: 1281px) {
+    .menubox {
+        background-color: #101612;
+        object-fit: cover;
+        width: 30%;
+        height: 10%;
+        margin: 20px;
+        border-radius: 10px;
+        position: relative;
+        margin-left: 35%;
+
+    }
+
+
+    .menubox .a {
+        color: white;
+        position: absolute;
+        top: 40%;
+        left: 38%;
+        font-weight: bold;
+        font-size: 26px;
+    }
+
+
+}
+
